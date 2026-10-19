@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>kawaii pomodoro</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <audio id="meowSound" src="https://pixabay.com/sound-effects/nature-cat-meow-8-fx-306184/" preload="auto"></audio>
+        <h1 class="stroked-text" style="color:#f7a8c5">kawaii pomodoro</h1>
+        <div class="main">
+            <div class="timer-circle" id="timer">25:00</div>
+            <div class="control-buttons">
+            <button class="pauseresume" onclick="togglePauseResume()">pause</button>
+            <button class="restart" onclick="restartTimer()">restart</button>  
+            <button class="time" onclick="chooseTime()">choose study time</button>  
+            </div>
+        <div id="pomodoroModal" class="modal">
+            <div class="modal-content">
+                <h2>break time!!!</h2>
+                <p>great job, i'm proud of you! let's go take a break.</p>
+            </div>
+        </div>
+        </div>
+        <p>made by mold spore on slack :]</p>
+
+        <p>---------------------------------------------</p>
+
+        <p>my wish for this project is that people will use the site to track their study time!</p>
+        <p>i've always wanted a free pomodoro timer to help study and sometimes it's hard to come by since they're boring.</p>
+        <p>thanks again! and thanks to the people at terra for letting me make this! :]</p>
+
+        
+        <p>---------------------------------------------</p>
+
+        <img src="images/kitty.jpg" width=120px;height=120px; alt="fat kitten :]">
+
+        <p>have a cute cat. the same cat that was meant to be here.</p>
+        <p>too chunky to work. lol</p>
+        <script src="script.js"></script>
+    </body>
+
+</html>
